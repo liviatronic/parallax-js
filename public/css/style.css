@@ -1,0 +1,29 @@
+#myVideo {
+  position: fixed;
+  display: block;
+  width: 100vw;
+  margin: 0 auto;
+  mix-blend-mode: difference;
+}
+
+#logotype {
+  mix-blend-mode: difference;
+}
+
+img {
+  width: 100%;
+}
+
+#container {
+  position: absolute;
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  overflow: hidden;
+}
+
+.layer-1,
+.layer-2,
+.layer-3 {
+  position: absolute;
+}
